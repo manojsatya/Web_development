@@ -1,0 +1,106 @@
+<html>
+
+    <head>
+        <title>Javascript first one</title>
+
+        <style type = "text/css">
+
+            .circle {
+                width : 150px;
+                height : 150px;
+                border-radius : 50%;
+                margin : 10px;
+                float : left;                 
+                }
+        
+            #red-circle{
+                background-color : red;
+            }
+
+            #blue-circle{
+                background-color : blue;
+            }
+
+            #yellow-circle{
+                background-color : yellow;
+            }
+        </style>
+    
+    </head>
+
+    <body>
+
+        <div class="circle" id = "red-circle"></div>
+
+        <div class="circle" id = "blue-circle"></div>
+
+        <div class="circle" id = "yellow-circle"></div>
+
+        <input type="text" id="textEnter"> 
+
+        <p id="Textchange"> this text will be changed</p>
+
+        <button id="changeText"> Change Text</button>
+
+        <button id="getArray"> Get Array</button>
+
+        <button id="pass">Check password</button>
+        
+
+        <script type = "text/javascript">
+
+            document.getElementById("red-circle").onclick = function () {
+                document.getElementById("red-circle").style.display = "none"
+            }
+
+            document.getElementById("blue-circle").onclick = function () {
+                document.getElementById("blue-circle").style.display = "none"
+            }
+
+            document.getElementById("yellow-circle").onclick = function () {
+                document.getElementById("yellow-circle").style.display = "none"
+            }
+            
+            document.getElementById("changeText").onclick = function () {
+
+                var textEntered = "" ;
+                textEntered = document.getElementById("textEnter").value;
+                document.getElementById("Textchange").innerHTML = textEntered
+                
+            }
+
+            var myArray = new Array();
+            myArray[0] = "Manoj";
+            myArray[1] = "Pizza";
+
+            var tweets = ["Hey morning", "I love coffee"]
+            
+            console.log(myArray);  
+
+            document.getElementById("getArray").onclick = function () {
+                alert(tweets[1])
+            } 
+
+            document.getElementById("pass").onclick = function () {
+                var passrequired = "Manoj"
+                var passEntered = ""
+                passEntered = document.getElementById("textEnter").value;
+                if (passEntered == passrequired){
+                    alert("You entered it right!!!")
+                } else {
+                    alert("You are a fooooool")
+                }
+
+            }         
+            
+
+            
+        </script>
+
+
+    </body>
+
+
+
+
+</html>
