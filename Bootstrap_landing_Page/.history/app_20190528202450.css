@@ -1,0 +1,15 @@
+body{
+    background-image: url(jonas-vincent-2717-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+}
+
+
+
+
+#content{
+    text-align: center;
+    padding-top: 25%;
+    
+}
