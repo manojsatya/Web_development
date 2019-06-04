@@ -1,0 +1,38 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+
+
+#strip{
+    background: white;
+    text-align: center;
+    height: 30px;
+}
+
+.selected{
+    background-color: blue;
+}
