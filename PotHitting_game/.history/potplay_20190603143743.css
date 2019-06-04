@@ -1,0 +1,29 @@
+.playarea{
+    
+    width: 500px;
+    height: 600px;
+    background-color: aqua;
+    text-align: center;
+    left: 10px;
+    
+    
+    
+}
+
+.selected{
+    background-color: red;
+}
+
+
+.info{
+    display: inline;
+}
+
+.target{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    top: 300px;
+    left: 250px;    
+}

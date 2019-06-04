@@ -1,0 +1,28 @@
+.playarea{
+    
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    background-color: aqua;  
+    
+    
+}
+
+.selected{
+    background-color: red;
+}
+
+
+.wrapper{
+    display: inline;
+    align-content: center;
+    text-align: center;
+}
+
+.target{
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-color: red; 
+    margin-top: -300px;   
+}
