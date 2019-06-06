@@ -1,0 +1,11 @@
+#container{
+    width: 360px;
+    margin: 100px auto;
+    border: 2px solid grey;
+    background: #f7f7f7;
+}
+
+.selected{
+    color: gray;
+    text-decoration: line-through;
+}

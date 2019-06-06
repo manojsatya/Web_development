@@ -1,0 +1,18 @@
+h1{
+    background: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+#container{
+    width: 360px;
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    background: #f7f7f7;
+}
+
+.selected{
+    color: gray;
+    text-decoration: line-through;
+}
