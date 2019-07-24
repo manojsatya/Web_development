@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid</title>
+    <style>
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr 2fr);
+        grid-gap: 1em;
+        grid-auto-rows: minmax(100px, auto);
+        
+    }
+    .wrapper > div {
+        background: #eee;
+        padding: 1em;
+    }
+
+    .wrapper > div:nth-child(odd){
+        background: #ddd;
+    }
+
+    .nested{
+        display: grid;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, minima.
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, nam suscipit odio provident itaque eos a fuga beatae, quos reiciendis eveniet voluptatibus? Commodi eaque culpa quo perspiciatis fuga recusandae odio, labore sequi officiis suscipit. Mollitia quo ad nihil, velit ullam provident laboriosam ut? Labore, dolor id quibusdam magnam facilis nesciunt ea exercitationem illo sint soluta enim amet animi. Possimus at, ab repellendus est commodi vitae iusto ad, distinctio a repellat molestiae sapiente aspernatur vero ex iure, consequatur itaque animi explicabo.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, minima.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, tempore.
+        </div>
+        <div class="nested">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, officiis.</div>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, nisi.</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam?</div>
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, tempore.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, minima.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, tempore.
+        </div>
+    </div>
+    
+</body>
+</html>
